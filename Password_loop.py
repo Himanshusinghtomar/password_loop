@@ -1,13 +1,29 @@
 i = 1
-while i <= 10:
-    maths = int(input("Enter Your Maths Marks"))
-    eng = int(input("Enter Your English Marks"))
-    phy = int(input("Enter Your Physics Marks"))
-    che = int(input("Enter Your Chemistry Marks"))
-    sans = int(input("Enter Your Sanskrit Marks"))
+while i <= 1000:
+    name = input("Enter your Name  ")
+    password = input("Enter Your password  ")
 
-    avg = (maths + eng + phy + che + sans) / 5
-
-    print(avg)
+    if name == 'Pinchu':
+        print('Hello Pinchu')
+        if password == 'Priyanshu':
+            print('Access granted.')
+        else:
+            print('Wrong password/Id')
+    if name == "H.S.T":
+        print("hello Himanshu")
+        if password == "Rajput":
+            print("access granted")
+        else:
+            print('Wrong password/Id')
+    if name == "Ankit":
+        print("hello Ankit")
+        if password == "ankitch":
+            print("access granted")
+        else:
+            print('Wrong password/Id')
+    if name == "Ujjwal":
+        print("hello Ujjwal")
+        if password == "Anni":
+            print("access granted")
 
     i = i+1
